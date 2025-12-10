@@ -1,33 +1,31 @@
 body {
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
-  background: #f7f7f7;
+  background: #f3f3f3;
 }
 
 header {
   text-align: center;
-  background: white;
-  padding: 20px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 40px;
+  background: #4a72ff;
+  color: white;
 }
 
-.container {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 20px;
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: white;
+  color: #4a72ff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+section {
+  padding: 25px;
+  margin: 15px;
   background: white;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
-}
-
-h2 {
-  margin-bottom: 10px;
-}
-
-.card {
-  background: #eef3ff;
-  padding: 15px;
-  border-radius: 8px;
-  margin-top: 10px;
 }
